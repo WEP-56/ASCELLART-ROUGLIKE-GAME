@@ -1,0 +1,171 @@
+{
+  "difficulty": {
+    "easy": {
+      "levels": [
+        {"id": 1, "type": "normal", "monster": "堕落史莱姆", "hp": 80, "atk": 8, "def": 5, "soul": 5, "mechanic": ""},
+        {"id": 2, "type": "normal", "monster": "腐朽甲虫", "hp": 90, "atk": 9, "def": 6, "soul": 5, "mechanic": ""},
+        {"id": 3, "type": "normal", "monster": "游魂", "hp": 100, "atk": 10, "def": 7, "soul": 5, "mechanic": "攻击时有10%概率MISS"},
+        {"id": 4, "type": "normal", "monster": "小恶魔", "hp": 110, "atk": 11, "def": 8, "soul": 5, "mechanic": ""},
+        {"id": 5, "type": "normal", "monster": "骷髅战士", "hp": 120, "atk": 12, "def": 9, "soul": 5, "mechanic": ""},
+        {"id": 6, "type": "elite", "monster": "精英骷髅队长", "hp": 200, "atk": 18, "def": 15, "soul": 15, "mechanic": "每2回合触发横扫，额外造成10点伤害"},
+        {"id": 7, "type": "normal", "monster": "幽灵法师", "hp": 130, "atk": 13, "def": 10, "soul": 5, "mechanic": "解锁1次局内选项"},
+        {"id": 8, "type": "normal", "monster": "狼人", "hp": 140, "atk": 14, "def": 11, "soul": 5, "mechanic": ""},
+        {"id": 9, "type": "normal", "monster": "吸血鬼仆从", "hp": 150, "atk": 15, "def": 12, "soul": 5, "mechanic": "攻击时吸血5%"},
+        {"id": 10, "type": "normal", "monster": "石像鬼", "hp": 160, "atk": 16, "def": 13, "soul": 5, "mechanic": ""},
+        {"id": 11, "type": "elite", "monster": "精英幽灵领主", "hp": 250, "atk": 22, "def": 20, "soul": 15, "mechanic": "每3回合释放暗影波，降低玩家攻击力10%（1回合）"},
+        {"id": 12, "type": "normal", "monster": "地狱犬", "hp": 170, "atk": 17, "def": 14, "soul": 5, "mechanic": ""},
+        {"id": 13, "type": "normal", "monster": "巫妖学徒", "hp": 180, "atk": 18, "def": 15, "soul": 5, "mechanic": ""},
+        {"id": 14, "type": "normal", "monster": "食人魔", "hp": 190, "atk": 19, "def": 16, "soul": 5, "mechanic": "解锁1次局内选项"},
+        {"id": 15, "type": "boss", "monster": "暗影之王", "hp": 400, "atk": 30, "def": 25, "soul": 40, "mechanic": "每4回合触发暗影领域（玩家防御-20%持续2回合）；生命值<30%时狂暴（攻击+30%），解锁2次局内选项"},
+        {"id": 16, "type": "normal", "monster": "软泥怪群", "hp": 100, "atk": 7, "def": 4, "soul": 3, "mechanic": "可跳过"}
+      ]
+    },
+    "normal": {
+      "levels": [
+        {"id": 1, "type": "normal", "monster": "腐化骑士", "hp": 200, "atk": 25, "def": 20, "soul": 8, "mechanic": ""},
+        {"id": 2, "type": "normal", "monster": "暗影猎手", "hp": 220, "atk": 26, "def": 21, "soul": 8, "mechanic": ""},
+        {"id": 3, "type": "normal", "monster": "火焰法师", "hp": 240, "atk": 27, "def": 22, "soul": 8, "mechanic": "对元素掌控流-火系伤害抗性10%"},
+        {"id": 4, "type": "normal", "monster": "冰霜巨人", "hp": 260, "atk": 28, "def": 23, "soul": 8, "mechanic": "对元素掌控流-冰系伤害抗性10%"},
+        {"id": 5, "type": "normal", "monster": "雷电蠕虫", "hp": 280, "atk": 29, "def": 24, "soul": 8, "mechanic": "对元素掌控流-电系伤害抗性10%"},
+        {"id": 6, "type": "elite", "monster": "精英腐化领主", "hp": 350, "atk": 35, "def": 30, "soul": 25, "mechanic": "每3回合触发腐化光环：玩家每回合减少5%最大生命值（持续2回合），召唤辅助流骷髅兵可抵消"},
+        {"id": 7, "type": "normal", "monster": "剧毒蜘蛛", "hp": 300, "atk": 30, "def": 25, "soul": 8, "mechanic": "解锁1次局内选项"},
+        {"id": 8, "type": "normal", "monster": "石像鬼队长", "hp": 320, "atk": 31, "def": 26, "soul": 8, "mechanic": ""},
+        {"id": 9, "type": "normal", "monster": "亡灵巫师", "hp": 340, "atk": 32, "def": 27, "soul": 8, "mechanic": "召唤1个小骷髅（50hp/10atk/5def）"},
+        {"id": 10, "type": "normal", "monster": "恶魔猎手", "hp": 360, "atk": 33, "def": 28, "soul": 8, "mechanic": ""},
+        {"id": 11, "type": "normal", "monster": "钢铁傀儡", "hp": 380, "atk": 34, "def": 29, "soul": 8, "mechanic": ""},
+        {"id": 12, "type": "elite", "monster": "精英剧毒女王", "hp": 400, "atk": 40, "def": 35, "soul": 25, "mechanic": "攻击附带剧毒：每回合减10hp（持续3回合），神圣守护流圣光庇护可加速恢复"},
+        {"id": 13, "type": "normal", "monster": "熔岩巨兽", "hp": 400, "atk": 35, "def": 30, "soul": 8, "mechanic": ""},
+        {"id": 14, "type": "normal", "monster": "冰原狼", "hp": 420, "atk": 36, "def": 31, "soul": 8, "mechanic": "解锁1次局内选项"},
+        {"id": 15, "type": "normal", "monster": "风暴元素", "hp": 440, "atk": 37, "def": 32, "soul": 8, "mechanic": "对近战爆发流伤害提升10%"},
+        {"id": 16, "type": "normal", "monster": "黑暗骑士", "hp": 460, "atk": 38, "def": 33, "soul": 8, "mechanic": ""},
+        {"id": 17, "type": "normal", "monster": "堕落天使（仆从）", "hp": 480, "atk": 39, "def": 34, "soul": 8, "mechanic": ""},
+        {"id": 18, "type": "elite", "monster": "精英风暴领主", "hp": 450, "atk": 45, "def": 40, "soul": 25, "mechanic": "每2回合释放风暴冲击：玩家无法攻击1回合，暗影刺客流潜行姿态可规避"},
+        {"id": 19, "type": "normal", "monster": "骸骨巨龙（幼龙）", "hp": 500, "atk": 40, "def": 35, "soul": 8, "mechanic": ""},
+        {"id": 20, "type": "normal", "monster": "地狱火", "hp": 520, "atk": 41, "def": 36, "soul": 8, "mechanic": ""},
+        {"id": 21, "type": "normal", "monster": "冰晶凤凰（仆从）", "hp": 540, "atk": 42, "def": 37, "soul": 8, "mechanic": "解锁1次局内选项"},
+        {"id": 22, "type": "normal", "monster": "暗影刺客（精英）", "hp": 560, "atk": 43, "def": 38, "soul": 8, "mechanic": "潜行状态下第一次攻击必定暴击，神圣守护流圣盾术可免疫"},
+        {"id": 23, "type": "normal", "monster": "光明使者（堕落）", "hp": 580, "atk": 44, "def": 39, "soul": 8, "mechanic": ""},
+        {"id": 24, "type": "elite", "monster": "精英骸骨君主", "hp": 500, "atk": 50, "def": 45, "soul": 25, "mechanic": "生命值<50%时触发骸骨重生：恢复100hp（仅1次），元素掌控流元素暴击可快速斩杀"},
+        {"id": 25, "type": "normal", "monster": "深渊蠕虫", "hp": 600, "atk": 45, "def": 40, "soul": 8, "mechanic": ""},
+        {"id": 26, "type": "normal", "monster": "暗黑法师（精英）", "hp": 620, "atk": 46, "def": 41, "soul": 8, "mechanic": ""},
+        {"id": 27, "type": "normal", "monster": "钢铁巨人", "hp": 640, "atk": 47, "def": 42, "soul": 8, "mechanic": ""},
+        {"id": 28, "type": "normal", "monster": "神圣骑士（堕落）", "hp": 660, "atk": 48, "def": 43, "soul": 8, "mechanic": "解锁1次局内选项"},
+        {"id": 29, "type": "boss", "monster": "火焰之神", "hp": 800, "atk": 60, "def": 50, "soul": 60, "mechanic": "1.每3回合火焰雨：50点固定伤害（可被元素护盾抵消）；2.火系抗性20%/冰系额外承受10%；3.战胜后解锁2次局内选项"},
+        {"id": 30, "type": "normal", "monster": "冰霜之灵", "hp": 680, "atk": 49, "def": 44, "soul": 8, "mechanic": ""},
+        {"id": 31, "type": "normal", "monster": "雷电之魂", "hp": 700, "atk": 50, "def": 45, "soul": 8, "mechanic": ""},
+        {"id": 32, "type": "normal", "monster": "暗影之影", "hp": 720, "atk": 51, "def": 46, "soul": 8, "mechanic": ""},
+        {"id": 33, "type": "normal", "monster": "光明之辉", "hp": 740, "atk": 52, "def": 47, "soul": 8, "mechanic": ""},
+        {"id": 34, "type": "normal", "monster": "剧毒之核", "hp": 760, "atk": 53, "def": 48, "soul": 8, "mechanic": "解锁1次局内选项"},
+        {"id": 35, "type": "normal", "monster": "熔岩巨人（精英）", "hp": 780, "atk": 54, "def": 49, "soul": 8, "mechanic": ""},
+        {"id": 36, "type": "normal", "monster": "冰原巨兽", "hp": 800, "atk": 55, "def": 50, "soul": 8, "mechanic": ""},
+        {"id": 37, "type": "normal", "monster": "风暴巨龙（幼龙）", "hp": 820, "atk": 56, "def": 51, "soul": 8, "mechanic": ""},
+        {"id": 38, "type": "normal", "monster": "黑暗巫师（领主）", "hp": 840, "atk": 57, "def": 52, "soul": 8, "mechanic": ""},
+        {"id": 39, "type": "normal", "monster": "亡灵骑士（精英）", "hp": 860, "atk": 58, "def": 53, "soul": 8, "mechanic": ""},
+        {"id": 40, "type": "normal", "monster": "恶魔君主（仆从）", "hp": 880, "atk": 59, "def": 54, "soul": 8, "mechanic": ""},
+        {"id": 41, "type": "normal", "monster": "天使猎手", "hp": 900, "atk": 60, "def": 55, "soul": 8, "mechanic": ""},
+        {"id": 42, "type": "normal", "monster": "BOSS前置-守门人", "hp": 920, "atk": 61, "def": 56, "soul": 10, "mechanic": "解锁1次局内选项，击败后开启BOSS关"},
+        {"id": 43, "type": "boss", "monster": "冰霜女王", "hp": 900, "atk": 65, "def": 55, "soul": 70, "mechanic": "1.每4回合冰封领域：玩家冻结1回合（火系攻击可解除）；2.生命值<20%时触发冰甲：防御+50%（持续2回合）；3.战胜后解锁2次局内选项"}
+      ]
+    }
+  },
+       "hard": {
+      "levels": [
+        {"id": 1, "type": "normal", "monster": "深渊蠕虫", "hp": 1000, "atk": 70, "def": 60, "soul": 10, "mechanic": "近战克制：对近战攻击伤害减免20%"},
+        {"id": 2, "type": "normal", "monster": "骸骨掠夺者", "hp": 1050, "atk": 72, "def": 62, "soul": 10, "mechanic": ""},
+        {"id": 3, "type": "normal", "monster": "暗影织者", "hp": 1100, "atk": 74, "def": 64, "soul": 10, "mechanic": "每3回合释放暗影陷阱，近战踩中后无法移动1回合"},
+        {"id": 4, "type": "normal", "monster": "钢铁守卫", "hp": 1150, "atk": 76, "def": 66, "soul": 10, "mechanic": ""},
+        {"id": 5, "type": "normal", "monster": "剧毒憎恶", "hp": 1200, "atk": 78, "def": 68, "soul": 10, "mechanic": "解锁1次局内选项"},
+        {"id": 6, "type": "elite", "monster": "精英暗影刺客", "hp": 3500, "atk": 160, "def": 210, "soul": 40, "mechanic": "复制潜行状态，玩家潜行时怪物同步潜行；神圣守护流「正义审判」可强制破隐"},
+
+
+        {"id": 7, "type": "normal", "monster": "灵体法师", "hp": 1250, "atk": 80, "def": 70, "soul": 10, "mechanic": ""},
+        {"id": 8, "type": "normal", "monster": "元素剥离者", "hp": 1300, "atk": 82, "def": 72, "soul": 10, "mechanic": "每3回合驱散玩家1个召唤物（优先高血量）"},
+        {"id": 9, "type": "normal", "monster": "亡灵净化者", "hp": 1350, "atk": 84, "def": 74, "soul": 10, "mechanic": ""},
+        {"id": 10, "type": "normal", "monster": "召唤抑制者", "hp": 1400, "atk": 86, "def": 76, "soul": 10, "mechanic": "在场时玩家召唤物伤害降低30%"},
+        {"id": 11, "type": "normal", "monster": "虚空吞噬者", "hp": 1450, "atk": 88, "def": 78, "soul": 10, "mechanic": "解锁1次局内选项"},
+        {"id": 12, "type": "elite", "monster": "精英召唤破坏者", "hp": 3800, "atk": 170, "def": 220, "soul": 45, "mechanic": "每2回合释放「召唤湮灭」，清除玩家所有召唤物并造成召唤物总血量10%的伤害"},
+
+
+        {"id": 13, "type": "normal", "monster": "元素吸收者", "hp": 1500, "atk": 90, "def": 80, "soul": 11, "mechanic": "吸收单一元素伤害（如先承受火系则免疫火系，切换其他元素可破）"},
+        {"id": 14, "type": "normal", "monster": "冰火双生体", "hp": 1550, "atk": 92, "def": 82, "soul": 11, "mechanic": ""},
+        {"id": 15, "type": "normal", "monster": "雷电聚合体", "hp": 1600, "atk": 94, "def": 84, "soul": 11, "mechanic": "对元素暴击伤害减免50%"},
+        {"id": 16, "type": "normal", "monster": "元素紊乱者", "hp": 1650, "atk": 96, "def": 86, "soul": 11, "mechanic": ""},
+        {"id": 17, "type": "normal", "monster": "元素领主（仆从）", "hp": 1700, "atk": 98, "def": 88, "soul": 11, "mechanic": "解锁1次局内选项"},
+        {"id": 18, "type": "elite", "monster": "精英元素主宰", "hp": 4200, "atk": 180, "def": 230, "soul": 50, "mechanic": "元素反弹：玩家使用某元素攻击后，怪物下次攻击必为同元素，造成150%伤害"},
+
+
+        {"id": 19, "type": "normal", "monster": "黑暗渗透者", "hp": 1750, "atk": 100, "def": 90, "soul": 11, "mechanic": "攻击时降低玩家治疗效果50%（持续2回合）"},
+        {"id": 20, "type": "normal", "monster": "亡灵侵蚀者", "hp": 1800, "atk": 102, "def": 92, "soul": 11, "mechanic": ""},
+        {"id": 21, "type": "normal", "monster": "圣盾破坏者", "hp": 1850, "atk": 104, "def": 94, "soul": 11, "mechanic": "优先攻击玩家的护盾，造成护盾值200%的伤害"},
+        {"id": 22, "type": "normal", "monster": "神圣污染者", "hp": 1900, "atk": 106, "def": 96, "soul": 11, "mechanic": ""},
+        {"id": 23, "type": "normal", "monster": "光明堕落者", "hp": 1950, "atk": 108, "def": 98, "soul": 11, "mechanic": "解锁1次局内选项"},
+        {"id": 24, "type": "elite", "monster": "精英黑暗教皇", "hp": 4500, "atk": 190, "def": 240, "soul": 55, "mechanic": "每4回合释放「神圣禁锢」，禁用玩家所有治疗技能2回合；暗影刺客流「毒刃」可打断"},
+
+
+        {"id": 25, "type": "normal", "monster": "混沌行者", "hp": 2000, "atk": 110, "def": 100, "soul": 12, "mechanic": "随机切换克制类型（每3回合刷新：近战/召唤/元素/神圣）"},
+        {"id": 26, "type": "normal", "monster": "维度撕裂者", "hp": 2050, "atk": 112, "def": 102, "soul": 12, "mechanic": ""},
+        {"id": 27, "type": "normal", "monster": "法则破坏者", "hp": 2100, "atk": 114, "def": 104, "soul": 12, "mechanic": "无视玩家10%防御力"},
+        {"id": 28, "type": "normal", "monster": "多元聚合体", "hp": 2150, "atk": 116, "def": 106, "soul": 12, "mechanic": ""},
+        {"id": 29, "type": "normal", "monster": "混沌守卫", "hp": 2200, "atk": 118, "def": 108, "soul": 12, "mechanic": "解锁1次局内选项"},
+        {"id": 30, "type": "elite", "monster": "精英混沌领主", "hp": 4800, "atk": 200, "def": 250, "soul": 60, "mechanic": "同时克制两种流派（随机组合），受到第三种流派伤害提升20%"},
+
+
+        {"id": 31, "type": "normal", "monster": "末日使者（仆从）", "hp": 2250, "atk": 120, "def": 110, "soul": 12, "mechanic": ""},
+        {"id": 32, "type": "normal", "monster": "毁灭先驱", "hp": 2300, "atk": 122, "def": 112, "soul": 12, "mechanic": "每回合提升自身2%攻击力（可叠加）"},
+        {"id": 33, "type": "normal", "monster": "终焉守卫", "hp": 2350, "atk": 124, "def": 114, "soul": 12, "mechanic": ""},
+        {"id": 34, "type": "normal", "monster": "灾厄之影", "hp": 2400, "atk": 126, "def": 116, "soul": 12, "mechanic": ""},
+        {"id": 35, "type": "normal", "monster": "BOSS前置-深渊之门", "hp": 2450, "atk": 128, "def": 118, "soul": 15, "mechanic": "解锁1次局内选项，击败后开启BOSS关1"},
+        {"id": 36, "type": "elite", "monster": "精英末日守卫", "hp": 5000, "atk": 210, "def": 260, "soul": 65, "mechanic": "全流派克制（伤害减免30%），仅在使用「流派组合技」时破防"},
+        {"id": 37, "type": "boss", "monster": "深渊领主", "hp": 6000, "atk": 230, "def": 310, "soul": 100, "mechanic": "1.阶段1：释放深渊触手（每2回合攻击1次）；2.阶段2：深渊领域（玩家每回合减10%血量）；3.阶段3：弱点-召唤流「黑暗能量」满层时伤害翻倍；4.解锁2次局内选项"},
+
+
+        {"id": 38, "type": "normal", "monster": "光明审判者（堕落）", "hp": 2500, "atk": 130, "def": 120, "soul": 13, "mechanic": "神圣克制：对神圣伤害减免40%"},
+        {"id": 39, "type": "normal", "monster": "圣光傀儡", "hp": 2550, "atk": 132, "def": 122, "soul": 13, "mechanic": ""},
+        {"id": 40, "type": "normal", "monster": "正义执行者（扭曲）", "hp": 2600, "atk": 134, "def": 124, "soul": 13, "mechanic": "每3回合释放「正义裁决」，强制扣除玩家20%当前血量"},
+        {"id": 41, "type": "normal", "monster": "信仰崩塌者", "hp": 2650, "atk": 136, "def": 126, "soul": 13, "mechanic": ""},
+        {"id": 42, "type": "normal", "monster": "BOSS前置-圣光屏障", "hp": 2700, "atk": 138, "def": 128, "soul": 15, "mechanic": "解锁1次局内选项，击败后开启BOSS关2"},
+        {"id": 43, "type": "elite", "monster": "精英光明神使", "hp": 5300, "atk": 220, "def": 270, "soul": 70, "mechanic": "召唤3个「圣光之核」，核存在时怪物免疫所有伤害"},
+        {"id": 44, "type": "boss", "monster": "光明神（堕落）", "hp": 7000, "atk": 250, "def": 330, "soul": 120, "mechanic": "1.阶段1：圣光箭雨（每3回合）；2.阶段2：信仰禁锢（禁用主动技能1回合）；3.阶段3：弱点-暗影刺客流「致命毒药」叠满5层时暴击率100%；4.解锁2次局内选项"},
+
+
+        {"id": 45, "type": "normal", "monster": "元素风暴体", "hp": 2750, "atk": 140, "def": 130, "soul": 13, "mechanic": "元素克制：随机免疫两种元素伤害"},
+        {"id": 46, "type": "normal", "monster": "元素融合者", "hp": 2800, "atk": 142, "def": 132, "soul": 13, "mechanic": ""},
+        {"id": 47, "type": "normal", "monster": "元素暴走者", "hp": 2850, "atk": 144, "def": 134, "soul": 13, "mechanic": "元素攻击有50%概率触发双倍伤害"},
+        {"id": 48, "type": "normal", "monster": "元素寂灭者", "hp": 2900, "atk": 146, "def": 136, "soul": 13, "mechanic": ""},
+        {"id": 49, "type": "normal", "monster": "BOSS前置-元素漩涡", "hp": 2950, "atk": 148, "def": 138, "soul": 15, "mechanic": "解锁1次局内选项，击败后开启BOSS关3"},
+        {"id": 50, "type": "elite", "monster": "精英元素守护者", "hp": 5600, "atk": 230, "def": 280, "soul": 75, "mechanic": "每回合切换元素形态，当前形态对对应元素伤害提升50%"},
+        {"id": 51, "type": "boss", "monster": "元素之主", "hp": 8000, "atk": 270, "def": 350, "soul": 140, "mechanic": "1.阶段1：单一元素攻击（每2回合切换）；2.阶段2：元素组合技（同时释放两种元素）；3.阶段3：弱点-元素流「元素风暴」触发后伤害提升50%；4.解锁2次局内选项"},
+
+
+        {"id": 52, "type": "normal", "monster": "终焉使者", "hp": 3000, "atk": 150, "def": 140, "soul": 14, "mechanic": ""},
+        {"id": 53, "type": "normal", "monster": "世界吞噬者（幼体）", "hp": 3100, "atk": 152, "def": 142, "soul": 14, "mechanic": ""},
+        {"id": 54, "type": "normal", "monster": "虚空行者", "hp": 3200, "atk": 154, "def": 144, "soul": 14, "mechanic": "解锁1次局内选项"},
+        {"id": 55, "type": "normal", "monster": "混沌侵蚀者", "hp": 3300, "atk": 156, "def": 146, "soul": 14, "mechanic": ""},
+        {"id": 56, "type": "normal", "monster": "毁灭之影", "hp": 3400, "atk": 158, "def": 148, "soul": 14, "mechanic": ""},
+        {"id": 57, "type": "normal", "monster": "末日守卫（精英）", "hp": 3500, "atk": 160, "def": 150, "soul": 14, "mechanic": ""},
+        {"id": 58, "type": "normal", "monster": "天启骑士", "hp": 3600, "atk": 162, "def": 152, "soul": 14, "mechanic": "解锁1次局内选项"},
+        {"id": 59, "type": "normal", "monster": "终焉守卫（精英）", "hp": 3700, "atk": 164, "def": 154, "soul": 14, "mechanic": ""},
+        {"id": 60, "type": "normal", "monster": "世界崩坏者", "hp": 3800, "atk": 166, "def": 156, "soul": 14, "mechanic": ""},
+        {"id": 61, "type": "normal", "monster": "BOSS前置-终极之门", "hp": 3900, "atk": 168, "def": 158, "soul": 20, "mechanic": "解锁1次局内选项，击败后开启最终BOSS关"},
+        {"id": 62, "type": "elite", "monster": "精英终焉主宰", "hp": 6000, "atk": 240, "def": 290, "soul": 80, "mechanic": "全阶段免疫控制，每3回合清除玩家所有增益效果"},
+
+        {"id": 63, "type": "normal", "monster": "虚弱的虚空碎片", "hp": 2000, "atk": 100, "def": 80, "soul": 10, "mechanic": "可跳过，奖励减半"},
+        {"id": 64, "type": "normal", "monster": "残留的混沌能量", "hp": 2200, "atk": 110, "def": 90, "soul": 10, "mechanic": "可跳过，奖励减半"},
+        {"id": 65, "type": "normal", "monster": "濒死的毁灭仆从", "hp": 2400, "atk": 120, "def": 100, "soul": 10, "mechanic": "可跳过，奖励减半"},
+
+        {"id": 66, "type": "boss", "monster": "最终守护者", "hp": 10000, "atk": 300, "def": 400, "soul": 150, "mechanic": "1.阶段1：召唤4个守护骑士（需逐个击破）；2.阶段2：全屏AOE（每4回合）；3.阶段3：弱点-神圣守护流「英雄集结」召唤3个英雄时，怪物防御力归零；4.解锁2次局内选项"},
+
+        {"id": 67, "type": "normal", "monster": "世界余烬", "hp": 1500, "atk": 80, "def": 60, "soul": 5, "mechanic": "通关缓冲，可跳过"},
+        {"id": 68, "type": "normal", "monster": "和平的灵魂", "hp": 1000, "atk": 50, "def": 40, "soul": 5, "mechanic": "通关缓冲，可跳过"}
+      ]
+    },
+    "endless": {
+      "base_cycle": [
+        {"type": "normal", "hp_base": 1000, "atk_base": 70, "def_base": 60, "soul_base": 10, "mechanic": ""},
+        {"type": "elite", "hp_base": 3500, "atk_base": 160, "def_base": 210, "soul_base": 40, "mechanic": ""},
+        {"type": "boss", "hp_base": 6000, "atk_base": 230, "def_base": 310, "soul_base": 100, "mechanic": ""}
+      ],
+      "cycle_buff": 0.15,
+      "soul_increase": {"normal": 2, "elite": 5, "boss": 20}
+    }
+}
